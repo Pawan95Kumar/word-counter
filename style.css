@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+#box{
+    margin: 150px;
+}
+#box h1{
+ background-color: rgba(43, 119, 226, 0.594);
+ width: 100%;
+ color: antiquewhite;
+ padding: 10px;
+ text-align: center;
+ padding-left: 50px;
+font-size: 1.9em;
+}
+#text{
+    border: 3px solid black;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.4em;
+    word-spacing: -5px;
+    background-color: rgb(75, 75, 204);
+    min-height:200px;
+    color: azure;
+    margin-bottom: -4px;
+}
+p{
+    background-color: rgba(43, 119, 226, 0.594);
+    padding: 15px;
+    font-size: 2em;
+    color: aliceblue;
+    text-align: center;
+
+}
